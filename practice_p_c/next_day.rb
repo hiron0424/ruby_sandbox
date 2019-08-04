@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'byebug'
-
 date_info = gets.split(' ').map(&:to_i)
 year = date_info[0]
 month = date_info[1]
