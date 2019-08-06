@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 # 016
 
 origin_word = gets.chomp
