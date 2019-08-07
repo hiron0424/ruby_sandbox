@@ -1,3 +1,12 @@
 /practice_p_c
 standard_input.rb
 /skill_check_p_c
+
+.bundle
+/vendor
+
+Gemfile
+Gemfile.lock
+
+.rubocop.yml
+.byebug_history

@@ -4,7 +4,7 @@ data = gets.split(" ").map(&:to_f)
 height = BigDecimal(data[0].to_s) * BigDecimal("0.01")
 weight = BigDecimal(data[1].to_s)
 
-bmi = (weight / (height ** 2)).floor(1).to_f
+bmi = (weight / (height**2)).floor(1).to_f
 
 judgement = if bmi < 18.5
               '低体重'
